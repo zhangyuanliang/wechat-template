@@ -1,0 +1,17 @@
+<view class="order-wrap">
+  <view class="date-wrap">
+    <view class="date-info">
+      <text>2018年8月</text>
+    </view>
+    <order-item actived="{{actived}}"></order-item>
+    <order-item></order-item>
+  </view>
+
+  <view class="date-wrap">
+    <view class="date-info">
+      <text>2018年7月</text>
+    </view>
+    <order-item></order-item>
+  </view>
+
+</view>

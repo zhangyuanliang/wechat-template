@@ -1,0 +1,51 @@
+<view class="home-wrap">
+  <cover-view class="panel-top">
+    <cover-view wx:if="{{showOrder}}" class="flex-b align-c">
+      <cover-view class="name-wrap">
+        <cover-image src="/images/def-head@2x.png"></cover-image>
+        <cover-view>服务员名称</cover-view>
+      </cover-view>
+      <cover-view class="flex-v">
+        <cover-view>个人中心</cover-view>
+        <cover-image class="r-arrow" src="/images/rightArrow@2x.png"></cover-image>
+      </cover-view>
+    </cover-view>
+    <cover-view wx:else class="flex-b align-c order-top">
+      <cover-view class="name-wrap">
+        <cover-image src="/images/def-head@2x.png"></cover-image>
+        <cover-view class="border-l">今日订单：</cover-view>
+        <cover-view class="font-blue">27</cover-view>
+      </cover-view>
+      <cover-view class="flex-v">
+        <cover-view>多有订单：</cover-view>
+        <cover-view class="font-blue">66</cover-view>
+      </cover-view>
+    </cover-view>
+    <cover-view wx:if="{{showOrder}}" class="order-info">
+      <cover-view class="item">
+        <cover-view class="num">27</cover-view>
+        <cover-view>今日订单</cover-view>
+      </cover-view>
+      <cover-view class="item">
+        <cover-view class="num">66</cover-view>
+        <cover-view>所有订单</cover-view>
+      </cover-view>
+    </cover-view>
+    <cover-view ontouchstart="hideInfo" class="flex-c align-c toggle-wrap">
+      <cover-view class="toggle-btn"></cover-view>
+    </cover-view>
+  </cover-view>
+  
+  <view>
+    <map
+      id="myMap"
+      class="map-area"
+      show-location
+    ></map>
+  </view>
+  <cover-view bindtap="moveToLocation" class="location-info">
+    <cover-image class="m-r-2" src="/images/location@2x.png"></cover-image>
+    <cover-view class="m-r-2">我的位置:</cover-view>
+    <cover-view class="primary-color fs m-l-2">杭州市滨江区火炬大道581号</cover-view>
+  </cover-view>
+</view>

@@ -1,0 +1,4 @@
+<view class="order-wrap">
+  <order-item actived="{{actived}}"></order-item>
+  <order-item></order-item>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "所有订单",
+  "usingComponents": {
+    "order-item": "/components/orderItem/index"
+  }
+}

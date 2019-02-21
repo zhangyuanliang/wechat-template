@@ -1,0 +1,57 @@
+<view class="bg-grey details-wrap">
+  <image class="detail-bg" src="/images/detail-bg@2x.png"></image>
+  <view class="detail-cont">
+    <view class="flex-v flex-b top">
+      <view>
+        <text>订单编号：</text><text class="num">EOTH20180710G000013</text>
+      </view>
+      <image src="/images/complete-img@2x.png"></image>
+    </view>
+    <view class="info">
+      <view class="flex-v item">
+        <text class="name">服务项目：</text>
+        <text class="fb flex-g">救援拖车</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">服务标准：</text>
+        <text class="flex-g">100公里免拖（超出部分客户自费10元／公里)</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">拖车目的地：</text>
+        <text class="flex-g">杭州市滨江区人民政府信访局（江南大道100号区政府西侧）</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">拖车里程：</text>
+        <text class="fb m-r-2">6.0</text><text>公里</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">项目方：</text>
+        <text class="flex-g">滨江区4S店</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">支付方式：</text>
+        <text class="fb flex-g">项目方结算</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">接单时间：</text>
+        <text class="flex-g">2018-07-10 15:10:10</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">完成时间：</text>
+        <text class="flex-g">2018-07-10 15:10:10</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">备注：</text>
+        <text class="flex-g">试图随后素回顾混艺术馆户商户速滑呼呼合适婚俗好好好好生活就是就和几个皇帝既然涂鸦好好生活就是就和几个皇帝既然涂</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">现场记录：</text>
+        <text class="flex-g">试图随后素回顾混艺术馆户商户速滑呼呼合适婚俗好好好好生活</text>
+      </view>
+      <view class="flex-v item">
+        <text class="name">test：</text>
+        <text class="flex-g">试图随后素回顾混艺术馆户商户速滑呼呼合适婚俗好好好好生活</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+.order-item {
+  width: 694rpx;
+  padding: 24rpx 16rpx;
+  margin-top: 40rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  position: relative;
+}
+.order-item .cont {
+  margin-bottom: 20rpx;
+}
+.order-item .cont:nth-last-child(2)  {
+  margin-bottom: 0rpx;
+}
+.cont image {
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 12rpx;
+}
+.right-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-11rpx);
+  right: 24rpx;
+  color: #FF9934;
+}
+.right-wrap image {
+  width: 12rpx;
+  height: 22rpx;
+  margin-left: 16rpx;
+}
+.fs {
+  font-size: 30rpx;
+  font-weight: 500;
+}

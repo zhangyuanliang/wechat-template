@@ -1,0 +1,15 @@
+{
+  "name": "ely-wx-carservice",
+  "version": "1.0.0",
+  "description": "服务员及服务商微信平台",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangyl",
+  "license": "ISC",
+  "dependencies": {
+    "flyio": "^0.6.13",
+    "vant-weapp": "^0.5.3"
+  }
+}

@@ -1,0 +1,119 @@
+.home-wrap {
+  font-family: PingFang-SC-Medium;
+  position: relative;
+}
+
+.panel-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  padding: 20rpx 28rpx 0 28rpx;
+  font-size: 22rpx;
+  font-weight: 600;
+  background: #fff;
+  border-bottom-left-radius: 56rpx;
+  border-bottom-right-radius: 56rpx;
+  z-index: 1;
+}
+
+.name-wrap {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.name-wrap cover-image {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 16rpx;
+}
+
+.r-arrow {
+  width: 12rpx;
+  height: 22rpx;
+  margin-left: 16rpx;
+}
+
+.order-info {
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 400;
+  margin-top: 32rpx;
+}
+
+.order-info .item {
+  width: 50%;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-info .num {
+  font-size: 64rpx;
+  font-weight: 600;
+  color: #7c83ff;
+}
+
+.toggle-wrap {
+  height: 72rpx;
+}
+
+.toggle-btn {
+  width: 120rpx;
+  height: 8rpx;
+  background: #eee;
+  border-radius: 6rpx;
+}
+
+.order-top {
+  font-size: 24rpx;
+  font-weight: 400;
+}
+
+.order-top .name-wrap {
+  font-size: 24rpx;
+}
+
+.order-top .border-l {
+  position: relative;
+  padding-left: 17rpx;
+  border-left: 1px solid #d3d3d3;
+}
+
+.font-blue {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #535efa;
+}
+
+.map-area {
+  width: 100%; 
+  height: 100vh;
+}
+
+.location-info {
+  width: 694rpx;
+  height: 108rpx;
+  padding: 32rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 52rpx;
+  left: 28rpx;
+  border-radius: 16rpx;
+}
+
+.location-info cover-image {
+  width: 34rpx;
+  height: 38rpx;
+}
+
+.fs {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #535efa;
+}

@@ -1,0 +1,18 @@
+<view class="order-item">
+  <view class="flex-v cont">
+    <image class="icon" src="/images/type-icon@2x.png"></image>
+    <text>服务项目：</text><text class="primary-color fs">救援拖车</text>
+  </view>
+  <view class="flex-v cont">
+    <image class="icon" src="/images/mileage-icon@2x.png"></image>
+    <text>拖车里程：</text><text class="primary-color fs m-r-2">0.16</text><text>公里</text>
+  </view>
+  <view wx:if="{{!actived}}" class="flex-v cont">
+    <image class="icon" src="/images/time-icon@2x.png"></image>
+    <text>完成时间：</text><text>2018年08月10日 12:00:00</text>
+  </view>
+  <view class="right-wrap">
+    <text wx:if="{{actived}}">正在执行中…</text>
+    <image class="arrow" src="/images/rightArrow@2x.png"></image>
+  </view>
+</view>
